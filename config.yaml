@@ -1,9 +1,9 @@
 settings:
   title: 'Status Page'
-  url: 'https://status-page.eidam.dev' # used for Slack messages
-  logo: logo-192x192.png # image in ./public/ folder
-  daysInHistogram: 90 # number of days you want to display in histogram
-  collectResponseTimes: true # collects avg response times from CRON locations
+  url: 'https://status-page.eidam.dev'
+  logo: logo.svg
+  daysInHistogram: 30
+  collectResponseTimes: true
 
   allmonitorsOperational: 'All Systems Operational'
   notAllmonitorsOperational: 'Not All Systems Operational'
@@ -12,28 +12,30 @@ settings:
   monitorLabelNoData: 'No data'
   dayInHistogramNoData: 'No data'
   dayInHistogramOperational: 'All good'
-  dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
+  dayInHistogramNotOperational: ' incident(s)'
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+  - id: main
+    name: velyn.my.id
+    url: 'https://velyn.my.id/'
 
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+  - id: blog
+    name: blog.velyn.my.id
+    url: 'https://blog.velyn.my.id/'
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
-    method: GET
-    expectStatus: 200
+  - id: dns
+    name: dns.velyn.my.id
+    url: 'https://dns.velyn.my.id/'
+
+  - id: doh
+    name: doh.velyn.my.id
+    url: 'https://doh.velyn.my.id/dns-query'
+    expectStatus: 400
+
+  - id: clipboard
+    name: clipboard.velyn.my.id
+    url: 'https://clipboard.velyn.my.id/'
+
+  - id: shared
+    name: files.velyn.my.id
+    url: 'https://files.velyn.my.id/'
