@@ -1,5 +1,5 @@
 settings:
-  title: 'Status Page'
+  title: 'Server Status'
   url: 'https://status-page.eidam.dev'
   logo: logo.svg
   daysInHistogram: 30
@@ -16,26 +16,26 @@ settings:
 
 monitors:
   - id: main
-    name: velyn.my.id
+    name: Main Site
     url: 'https://velyn.my.id/'
 
   - id: blog
-    name: blog.velyn.my.id
+    name: Blog Velyn
     url: 'https://blog.velyn.my.id/'
 
   - id: dns
-    name: dns.velyn.my.id
+    name: DNS Server
     url: 'https://dns.velyn.my.id/'
 
   - id: doh
-    name: doh.velyn.my.id
+    name: DNS Over HTTPS Server
     url: 'https://doh.velyn.my.id/dns-query'
     expectStatus: 400
 
   - id: clipboard
-    name: clipboard.velyn.my.id
+    name: Simple Clipboard
     url: 'https://clipboard.velyn.my.id/'
 
   - id: shared
-    name: files.velyn.my.id
+    name: Shared Files
     url: 'https://files.velyn.my.id/'

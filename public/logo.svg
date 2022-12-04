@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="256"
-   height="256"
-   viewBox="0 0 67.733332 67.733333"
+   width="64"
+   height="64"
+   viewBox="0 0 16.933333 16.933333"
    version="1.1"
    id="svg5"
    xmlns="http://www.w3.org/2000/svg"
@@ -13,25 +13,27 @@
      id="defs2" />
   <g
      id="layer1">
-    <rect
-       style="fill:#000000;stroke:#ffffff;stroke-width:3.98432;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect113"
-       width="63.74902"
-       height="63.749016"
-       x="1.99216"
-       y="1.99216"
-       rx="15.937255"
-       ry="15.937254" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.365px;line-height:1.25;font-family:Ravie;-inkscape-font-specification:Ravie;fill:#f9f9f9;stroke-width:2.03273"
-       x="15.325362"
-       y="50.329205"
-       id="text273"
-       transform="scale(0.95340619,1.0488709)"><tspan
-         id="tspan271"
-         x="15.325362"
-         y="50.329205"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.365px;font-family:Ravie;-inkscape-font-specification:Ravie;fill:#f9f9f9;stroke-width:2.03273">V</tspan></text>
+    <g
+       id="g3111"
+       transform="scale(1.3333328)">
+      <rect
+         style="fill:#000000;stroke:#ffffff;stroke-width:0.976927;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect113"
+         width="11.723078"
+         height="11.723073"
+         x="0.48846349"
+         y="0.48846349"
+         rx="2.9307694"
+         ry="2.9307683" />
+      <g
+         aria-label="V"
+         transform="scale(0.9534062,1.0488709)"
+         id="text273"
+         style="font-size:8.63911px;line-height:1.25;font-family:Ravie;-inkscape-font-specification:Ravie;fill:#f9f9f9;stroke-width:0.404958">
+        <path
+           d="M 10.799268,3.8859185 Q 8.6774554,6.100534 8.6774554,8.9563334 q 0,0.3290286 0.02531,0.6918037 -0.6791488,0 -2.5056793,0.1898242 Q 5.5643387,9.2684887 4.7755138,7.6950571 3.8727943,5.8896182 3.5437657,4.1727639 3.5015826,3.9407566 3.1092793,3.759369 2.8055606,3.6454745 2.4976235,3.53158 L 2.9827298,2.9199243 q 1.3414242,0.468233 2.3327283,0.6833671 1.1600367,0.2488806 2.408658,0.2910637 0.046401,0 0.046401,0.05062 0,0.067493 -0.1265495,0.2657538 -0.1771692,0.2741905 -0.2109157,0.3501202 -0.1054579,-0.00844 -0.561036,-0.080148 -0.3838666,-0.059056 -0.535726,-0.059056 -0.1645143,0 -0.1645143,0.05062 -0.00844,0.1729509 -0.00844,0.4091766 0,1.164255 0.3585568,2.1766506 0.4049582,1.1431635 1.1684733,1.7759108 0.042183,0.046401 0.1392044,0.046401 0.080148,0 0.059056,-0.063275 -0.042183,-0.2699722 -0.042183,-0.7677334 0,-2.5773906 1.4089173,-4.3533013 Q 9.073977,3.5695448 8.7154202,3.4134672 8.4327931,3.2953543 8.150166,3.1772415 8.2767154,2.8735228 8.5129411,2.2703037 q 0.9027194,0.6496206 1.2190931,0.8647547 0.5146348,0.3501201 1.0503608,0.6538388 0.07171,0.042183 0.01687,0.097021 z"
+           id="path294" />
+      </g>
+    </g>
   </g>
 </svg>
