@@ -15,27 +15,26 @@ settings:
   dayInHistogramNotOperational: ' incident(s)'
 
 monitors:
-  - id: main
-    name: Main Site
+  - id: hub
+    name: Velyn Hub
     url: 'https://velyn.my.id/'
+
+  - id: dns
+    name: Velyn DNS
+    url: 'https://dns.velyn.my.id/'
+
+  - id: shared
+    name: Shared Files
+    url: 'https://files.velyn.my.id/'
 
   - id: blog
     name: Blog Velyn
     url: 'https://blog.velyn.my.id/'
 
-  - id: dns
-    name: DNS Server
-    url: 'https://dns.velyn.my.id/'
-
-  - id: doh
-    name: DNS Over HTTPS Server
-    url: 'https://doh.velyn.my.id/dns-query'
-    expectStatus: 400
-
   - id: clipboard
     name: Simple Clipboard
     url: 'https://clipboard.velyn.my.id/'
 
-  - id: shared
-    name: Shared Files
-    url: 'https://files.velyn.my.id/'
+  - id: sankaku
+    name: Sankaku Viewer
+    url: 'https://sankaku.velyn.my.id/'
