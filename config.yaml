@@ -34,7 +34,3 @@ monitors:
   - id: clipboard
     name: Simple Clipboard
     url: 'https://clipboard.velyn.my.id/'
-
-  - id: sankaku
-    name: Sankaku Viewer
-    url: 'https://sankaku.velyn.my.id/'
