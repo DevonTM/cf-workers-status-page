@@ -15,21 +15,25 @@ settings:
   dayInHistogramNotOperational: ' incident(s)'
 
 monitors:
-  - id: hub
+  - id: www
     name: Velyn Hub
-    url: 'https://velyn.my.id/'
+    url: 'https://www.velyn.my.id/'
 
   - id: dns
     name: Velyn DNS
     url: 'https://dns.velyn.my.id/'
 
-  - id: shared
+  - id: files
     name: Shared Files
     url: 'https://files.velyn.my.id/'
 
   - id: blog
     name: Blog Velyn
     url: 'https://blog.velyn.my.id/'
+
+  - id: warp
+    name: Free WARP+
+    url: 'https://warp.velyn.my.id/'
 
   - id: clipboard
     name: Simple Clipboard
