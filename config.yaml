@@ -17,7 +17,7 @@ settings:
 monitors:
   - id: www
     name: Velyn Hub
-    url: 'https://www.velyn.my.id/'
+    url: 'https://velyn.my.id/'
 
   - id: dns
     name: Velyn DNS
